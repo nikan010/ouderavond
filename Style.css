@@ -1,0 +1,18 @@
+BODY {background-color: deepskyblue}
+A:link {color: black ; text-decoration: none}
+A:active {color: black ; text-decoration: none}
+A:visited {color: black ; text-decoration: none}
+
+div.absolute {
+  position: absolute;
+  width: 50%;
+  bottom: 10px;
+} 
+
+  <div class="absolute"><strong><P><A href="HTML opdracht.html">Terug naar homepagina</A>
+<P><A href="Hobby's.html">Pagina 2: Hobby's</A>
+<P><A href="WieBenIk.html">Pagina 3: Wie ben ik?</A>
+<P><A href="WaaromICT.html">Pagina 4: Waarom ICT?</A>
+<P><A href="ContactInformatie.html">Pagina 5: ContactInformatie</A>
+<P><A href="Scriptware Themas.html">Pagina 6: Scriptware Themas</A>
+<P><A href="Statistics.html">Pagina 7: Roblox game statistics</A></strong></div>
