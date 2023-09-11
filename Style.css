@@ -1,4 +1,4 @@
-BODY {background-color: #004630}
+BODY {background-color: #004630; font-family: Arial, Helvetica, sans-serif;}
 A:link {color: white ; text-decoration: none}
 A:active {color: black ; text-decoration: none}
 A:visited {color: white ; text-decoration: none}
@@ -8,7 +8,8 @@ div.absolute {
   width: 50%;
   bottom: 10px;
 } 
-ul {
+
+ul#links {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,21 +18,30 @@ ul {
   width: 100%;
 }
 
-li {
+ul#links li {
   float: left;
 }
 
-li a {
+#idk_bro {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+}
+
+ul#links li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
 }
 
-li a:hover {
+ul#links li a:hover {
   background-color: none;
   color: #d9fd49;
+}
+
+ul#some_nigger_shit {
+  color: white;
 }
 
 body {
@@ -40,4 +50,8 @@ body {
 }
 h1, h2, h3 {
   color: white; 
+}
+
+p {
+  color: white;
 }
