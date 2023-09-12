@@ -42,16 +42,20 @@ ul#links li a:hover {
 
 ul#some_shit {
   color: white;
+  list-style-type: none;
 }
 
 body {
   margin: 0;
   padding: 0;
 }
-h1, h2, h3 {
-  color: white; 
+h1, h2, h3, p, ul {
+  color: white;
+  text-align: center; 
 }
 
 p {
   color: white;
+  padding:0px; 
+  margin:0px;
 }
