@@ -18,46 +18,36 @@
       </ul>  
     <h1>Reviews ouderavond TCR</h1>
         
-    <form id="reviewForm" style="border:1px solid #ccc" action="your_destination_page.html" method="POST">
-          <div class="container">
-            
-            <h2>Laat hier uw review achter over de ouderavond site, wij horen het graag!</h2>
-            <hr>
-        
-            <label for="email"><b>Email</b></label>
-            <input type="text" placeholder="Enter Email" name="email" required>
-
-            <label for="uname"><b>Voornaam</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-
-            <label for="uname"><b>Achternaam</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-            <br>
-                       <label for="psw"><b>Postcode</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-        
-            <label for="psw-repeat"><b>Straat en Huisnummer</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required> 
-            <label for="ccnum">BSN nummerr</label>
-            <input type="text" id="ccnum" name="cardnumber" placeholder="147392324">
-            <br>
-            <label for="country"><b>Uit welk land komt u</b></label>
-            <select id="country" name="country">
-              <option value="nederland">Nederland</option>
-            </select>
-            <br>
-            <label for="uname"><b>Schrijf hier onder uw review over de website</b></label>
-            <input type="text" placeholder="Schrijf hier uw review!" name="uname" required>
-            <br>
+    <form id="reviewForm" class="container" action="Dankje.html" method="POST">
+      <h1>Vul hieronder uw informatie in.</h1>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Voer het hier in." name="email" required>
+      <br>
+      <label for="voornaam"><b>Voornaam</b></label>
+      <input type="text" placeholder="Voer het hier in." name="voornaam" required oninput="this.value = this.value.replace(/[^A-Za-z]/g, '')">
+      
+      <label for="achternaam"><b>Achternaam</b></label>
+      <input type="text" placeholder="Voer het hier in." name="achternaam" required oninput="this.value = this.value.replace(/[^A-Za-z]/g, '')">
+      
+      <label for="gender"><b>Geslacht</b></label>
+      <select id="gender" name="gender">
+          <option value="man">Man</option>
+          <option value="vrouw">Vrouw</option>
+      </select>
+      <label for="stad"><b>Stad</b></label>
+      <input type="text" placeholder="Voer het hier in." name="stad" required>
+      
+      <label for="uname"><b>Uit welk land komt u</b></label>
+      <input type="text" placeholder="Voer het hier in." name="uname" required>
+  
+      <label for="mening"><b>Wat is uw mening over deze site?</b></label>
+      <input type="text" placeholder="Voer het hier in." name="mening" required>
+      
+      <p>Door deze informatie in te vullen, bent u het eens met onze <a href="Terms_Privacy.html" style="color: dodgerblue">Terms & Privacy</a>.</p>
+      <div class="clearfix">
+          <button type="submit" class="reviews">Laat uw review achter!</button>
       </div>
-            
-            <p>Door een review achter te laten, bent u het eens met onze <a href="#" style="color:dodgerblue">Terms & Privacy</a></p>
-            <div class="clearfix">
-                <button type="submit">Laat de review achter!</button>
-              </div>
-        
-          </div>
-        </form>
-
+  </form>
 </body>
 </html>
