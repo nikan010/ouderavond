@@ -17,6 +17,14 @@ ul#links {
   background-color: #006445;
   width: 100%;
 }
+#foto_introductie{
+  float: center;
+  margin: 15px;
+}
+#p_locatie{
+  float: left;
+  margin: 15px;
+}
 
 ul#links li {
   float: left;
