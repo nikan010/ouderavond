@@ -106,3 +106,26 @@ button.reviews {
 button.reviews:hover {
     background-color: #004630;
 }
+.image-container {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-with-text {
+  text-align: center;
+}
+
+.image-with-text img {
+  height: auto;
+  width: 300px;
+}
+
+.image-with-text p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+#some_shit h2, #some_shit h3, #some_shit h4, #some_shit h5, #some_shit h6 {
+  margin: 0;
+}
