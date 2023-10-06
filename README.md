@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>"ouderavond"</title>
+    <title>"Deze github is voor een ouderavond project gemaakt door Yvan en Michael."</title>
 
 	</head>
   <body>
