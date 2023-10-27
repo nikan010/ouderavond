@@ -162,3 +162,16 @@ button.reviews:hover {
 #examenplanh3 {
   margin: 0;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
